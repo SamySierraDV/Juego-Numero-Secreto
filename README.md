@@ -1,5 +1,59 @@
 
-🎯 Juego del Número Secreto¡Bienvenido al juego Número Secreto! Esta es una aplicación web interactiva desarrollada en JavaScript donde el jugador debe adivinar un número aleatorio generado por el sistema dentro de un rango determinado.   📋 Tabla de ContenidosDescripción del Proyecto✨ Funcionalidades🛠️ Tecnologías Utilizadas📁 Estructura del Proyecto🧠 Arquitectura y Lógica del Juego🚀 Cómo Ejecutar el Proyecto👤 Autor🎮 Descripción del ProyectoEl Juego del Número Secreto desafía al jugador a adivinar un número generado aleatoriamente. Durante la partida, el juego proporciona retroalimentación en tiempo real indicando si el número secreto es mayor o menor que el valor ingresado, además de contabilizar el número de intentos requeridos para ganar.✨ FuncionalidadesGeneración aleatoria sin repetición: Genera números entre 1 y 10 asegurando que un mismo número no se vuelva a sortear hasta agotar las combinaciones.Pistas dinámicas: Indica si el número secreto es mayor o menor según el intento realizado.Contador de intentos: Registra y despliega el número de intentos empleados para acertar.Manejo de estado inicial y reinicio: Habilita y deshabilita controles según el estado de la partida para permitir jugar múltiples rondas.Limpieza automática de entradas: Restablece la caja de texto tras cada intento para mejorar la experiencia de usuario.🛠️ Tecnologías UtilizadasHTML5: Define la interfaz y estructura de la página del juego (index.html).   CSS3: Proporciona los estilos visuales y el diseño de la interfaz (style.css).   JavaScript (ES6): Implementa la lógica del juego, manipulación del DOM y generación aleatoria (app.js).   📁 Estructura del ProyectoEl proyecto está organizado con la siguiente estructura de archivos:   Plaintextjuego-numero-secreto/
+## ****Juego del Número Secreto****
+
+## ****¡Bienvenido al juego Número Secreto!****
+
+Esta es una aplicación web interactiva desarrollada en JavaScript donde el jugador debe adivinar un número aleatorio generado por el sistema dentro de un rango determinado.
+
+📋 Tabla de Contenidos
+
+\-Descripción del Proyecto
+
+\-✨ Funcionalidades
+
+\-🛠️ Tecnologías Utilizadas
+
+\-📁 Estructura del Proyecto
+
+\-🧠 Arquitectura y Lógica del Juego
+
+\-🚀 Cómo Ejecutar el Proyecto
+
+\-👤 Autor
+
+  
+
+🎮 Descripción del Proyecto:
+
+El Juego del Número Secreto desafía al jugador a adivinar un número generado aleatoriamente. Durante la partida, el juego proporciona retroalimentación en tiempo real indicando si el número secreto es mayor o menor que el valor ingresado, además de contabilizar el número de intentos requeridos para ganar.
+
+✨ Funcionalidades:
+
+Generación aleatoria sin repetición: Genera números entre 1 y 10 asegurando que un mismo número no se vuelva a sortear hasta agotar las combinaciones.
+
+Pistas dinámicas: Indica si el número secreto es mayor o menor según el intento realizado
+
+.Contador de intentos: Registra y despliega el número de intentos empleados para acertar.
+
+Manejo de estado inicial y reinicio: Habilita y deshabilita controles según el estado de la partida para permitir jugar múltiples rondas.
+
+Limpieza automática de entradas: Restablece la caja de texto tras cada intento para mejorar la experiencia de usuario.
+
+  
+
+🛠️ Tecnologías UtilizadasHTML5: Define la interfaz y estructura de la página del juego (index.html). -CSS3: Proporciona los estilos visuales y el diseño de la interfaz (style.css).
+
+\- JavaScript (ES6): Implementa la lógica del juego, manipulación del DOM y generación aleatoria.
+
+\-(app.js).
+
+  
+
+📁 Estructura del Proyecto:
+
+El proyecto está organizado con la siguiente estructura de archivos  
+
+Plaintextjuego-numero-secreto/
 │
 ├── index.html      # Página del juego (Game page)
 ├── style.css       # Hojas de estilo (Page styling)
